@@ -6,8 +6,10 @@ What is the 10001st prime number?
 """
 import math, sys
 def isPrime(number):
-	if number == 2 or number == 3:
+	if number < 4:
 		return True
+	if number % 2 == 0 or number % 3 == 0:
+		return False
 	numMax = int(math.ceil(math.sqrt(number)))
 	i = 2
 	bPrime = True
