@@ -210,16 +210,6 @@ def greatestProduct(listElements):
 
 
 
-#listNear = getNearby(maxNeighbors, 5, 0, maxRows,  maxCols )
-#for cords in listNear:
-#	for pairs in cords:
-#		matrixData[pairs[0]][pairs[1]] = str(int(matrixData[pairs[0]][pairs[1]]))
-#for x in listNear :
-#	print x
-#print ""
-#for row in matrixData:
-#	print row
-#sys.exit(1)
 
 globalGreatest = 0
 globalGreatestList = []
